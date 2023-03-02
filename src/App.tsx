@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Home } from './pages';
-import * as serviceWorker from './serviceWorker'
+
 
 
 function App() {
@@ -13,5 +13,5 @@ function App() {
     </>
   );
 }
-serviceWorker.register();
+
 export default App;

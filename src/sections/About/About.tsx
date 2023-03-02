@@ -12,7 +12,7 @@ const About = ()=>{
     return(
         <About>
             <h1>Mayar Alsalem</h1>
-                        <span className='title'>Web Devloper</span>
+                        <span className='title'>Web Developer</span>
                         <p> I am currently working on developing api for websites using <span className='special'>Asp Net Core</span>  and <span className="special">Sql Server</span> and also building web pages using <span className="special">React & typescript</span></p>
                         <Content className="btns">
                         <Link to='/portfolio/contact'>
