@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MayarAlsalem01/portfolio.git/static/css/main.eaae8f07.css",
-    "main.js": "/MayarAlsalem01/portfolio.git/static/js/main.ab521cad.js",
-    "static/js/787.b007fa7c.chunk.js": "/MayarAlsalem01/portfolio.git/static/js/787.b007fa7c.chunk.js",
-    "static/media/glassy-effect-clicp.png": "/MayarAlsalem01/portfolio.git/static/media/glassy-effect-clicp.3b9ac2a4a93b250b4e77.png",
-    "static/media/avatar.png": "/MayarAlsalem01/portfolio.git/static/media/avatar.2897253ac8c007f9874d.png",
-    "static/media/Logo.png": "/MayarAlsalem01/portfolio.git/static/media/Logo.8ca96d898f83356217e3.png",
-    "index.html": "/MayarAlsalem01/portfolio.git/index.html",
-    "main.eaae8f07.css.map": "/MayarAlsalem01/portfolio.git/static/css/main.eaae8f07.css.map",
-    "main.ab521cad.js.map": "/MayarAlsalem01/portfolio.git/static/js/main.ab521cad.js.map",
-    "787.b007fa7c.chunk.js.map": "/MayarAlsalem01/portfolio.git/static/js/787.b007fa7c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.eaae8f07.css",
+    "main.js": "/portfolio/static/js/main.608c9904.js",
+    "static/js/787.b007fa7c.chunk.js": "/portfolio/static/js/787.b007fa7c.chunk.js",
+    "static/media/glassy-effect-clicp.png": "/portfolio/static/media/glassy-effect-clicp.3b9ac2a4a93b250b4e77.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.2897253ac8c007f9874d.png",
+    "static/media/Logo.png": "/portfolio/static/media/Logo.8ca96d898f83356217e3.png",
+    "index.html": "/portfolio/index.html",
+    "main.eaae8f07.css.map": "/portfolio/static/css/main.eaae8f07.css.map",
+    "main.608c9904.js.map": "/portfolio/static/js/main.608c9904.js.map",
+    "787.b007fa7c.chunk.js.map": "/portfolio/static/js/787.b007fa7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eaae8f07.css",
-    "static/js/main.ab521cad.js"
+    "static/js/main.608c9904.js"
   ]
 }
