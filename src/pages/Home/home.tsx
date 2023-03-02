@@ -174,14 +174,14 @@ const Home = () => {
                     
                               
                               <Li className='active'  >
-                                <Link to='/' onClick={LinkOnClickHandle}>About</Link>
+                                <Link to='/portfolio' onClick={LinkOnClickHandle}>About</Link>
                                     
                             </Li>
                             <Li>
-                                <Link to='/Skills' onClick={LinkOnClickHandle}>Skllis</Link>                                            
+                                <Link to='/portfolio/Skills' onClick={LinkOnClickHandle}>Skllis</Link>                                            
                             </Li>
                             <Li>
-                                <Link to='/Contact' onClick={LinkOnClickHandle}>Contact</Link>
+                                <Link to='/portfolio/Contact' onClick={LinkOnClickHandle}>Contact</Link>
                             </Li>
                               
                           
@@ -199,9 +199,9 @@ const Home = () => {
                     <Content>
                        
                            <Routes>
-                           <Route    path='/'  element={<About/>}/>
-                            <Route   path='/Contact' element={<Contact/>}/>
-                            <Route   path='/Skills' element={<Skills/>}/>
+                           <Route    path='/portfolio'  element={<About/>}/>
+                            <Route   path='/portfolio/Contact' element={<Contact/>}/>
+                            <Route   path='/portfolio/Skills' element={<Skills/>}/>
                             <Route   path='*' element={<About/>}/>
                            </Routes>
                             
