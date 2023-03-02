@@ -15,7 +15,7 @@ const About = ()=>{
                         <span className='title'>Web Devloper</span>
                         <p> I am currently working on developing api for websites using <span className='special'>Asp Net Core</span>  and <span className="special">Sql Server</span> and also building web pages using <span className="special">React & typescript</span></p>
                         <Content className="btns">
-                        <Link to='/contact'>
+                        <Link to='/portfolio/contact'>
                         <Button variant='contained' endIcon={<SendIcon fontSize='small'></SendIcon>} size='large' sx={
                             {
                                 background:primaryColor,
@@ -28,7 +28,8 @@ const About = ()=>{
                         }>Hire Me</Button>
                        </Link>
                        
-                        <Button variant='contained' size='large' sx={
+                      <Link to='/portfolio/Skills'>
+                      <Button variant='contained' size='large' sx={
                             {
                                 background:'#ffffff12',
                                 boxShadow:'none',
@@ -38,6 +39,7 @@ const About = ()=>{
                                 }
                             }
                         }>Know More</Button>
+                      </Link>
                         
                        
                         </Content>
