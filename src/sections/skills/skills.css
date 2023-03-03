@@ -2,3 +2,9 @@
     background-color: #455DA7;
     font-weight: bold;
 }
+.skills .backend-section{
+    flex: 1;
+}
+.skills .frontend-section{
+    flex: 1;
+}

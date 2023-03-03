@@ -17,6 +17,7 @@
     "@types/react-dom": "^18.0.11",
     "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^10.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-browser-router": "^2.1.2",

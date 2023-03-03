@@ -4,13 +4,18 @@ import SendIcon from '@mui/icons-material/Send';
 import { Content } from "../../pages/Home/home";
 import styled from "@emotion/styled";
 import { Link } from "react-router-dom";
-import './about.css'
+import './about.css';
+import { motion } from 'framer-motion';
 const About = ()=>{
     const About = styled.div`
             padding-bottom: 85px;
     `
     return(
-        <About>
+
+     <motion.div initial={{ y: '-100%' }}
+     animate={{ y: 0 }}
+     transition={{ duration: 0.5 }}>
+           <About>
             <h1>Mayar Alsalem</h1>
                         <span className='title'>Web Developer</span>
                         <p> I am currently working on developing api for websites using <span className='special'>Asp Net Core</span>  and <span className="special">Sql Server</span> and also building web pages using <span className="special">React & typescript</span></p>
@@ -44,6 +49,7 @@ const About = ()=>{
                        
                         </Content>
         </About>
+     </motion.div>
     );
 }
 export default About;

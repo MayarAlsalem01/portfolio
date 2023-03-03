@@ -5,6 +5,7 @@ import { Button, TextField } from "@mui/material";
 import { Content } from "../../pages/Home/home";
 import '../Contact/contact.css'
 import { primaryColor } from "../../pages/color/colors";
+import { motion } from "framer-motion";
 const Form = styled.form`
         display: flex;
     flex-direction: column;
@@ -145,7 +146,11 @@ function Contact() {
   }
 
   return (
-    <div className="contact">
+    <motion.div initial={{ y: '-100%' }}
+     animate={{ y: 0 }}
+     transition={{ duration: 0.6 }}>
+
+<div className="contact">
         <Form onSubmit={handleSubmit}>
         <Label >
             Your Message Here 
@@ -210,6 +215,8 @@ function Contact() {
     </Form>
     
     </div>
+     </motion.div>
+   
   );
  
 }
